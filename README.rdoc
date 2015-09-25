@@ -1,7 +1,17 @@
-= Magento Sample
+= Magento custom module sample
 
-==== Add new tab in Backend in System Configuration, and implement form that contains one text field under the new tab.
+====== Description:
 
-==== Implement Observer, triggers when a product has been saved, it should concatenate the value from the text field in System Configuration to the name of the product.
+* Add new tab in Backend in System Configuration, and implement form that contains one text field under the new tab.
+
+* Implement Observer, triggers when a product has been saved, it should concatenate the value from the text field in System Configuration to the name of the product.
+
+====== Installation:
+
+- Copy the folder code and etc to your SHOP_ROOT/app.
+- Clear Cache.
+- Make sure that the Module Lemundo_Testaufgabe is enabled.
 
 This sample has been tested under Magento ver. 1.9.2.1
+
+That is it!
