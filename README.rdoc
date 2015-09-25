@@ -1,5 +1,7 @@
-# Magento Sample
+= Magento Sample
 
-## Add new form System Configuration contains one text field
+==== Add new tab in Backend in System Configuration, and implement form that contains one text field under the new tab.
 
-## Implement Observer, when product saved concats the value from the text field in System Configuration 
+==== Implement Observer, triggers when a product has been saved, it should concatenate the value from the text field in System Configuration to the name of the product.
+
+This sample has been tested under Magento ver. 1.9.2.1
