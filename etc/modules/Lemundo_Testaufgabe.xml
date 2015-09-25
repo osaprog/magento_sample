@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lemundo_Testaufgabe>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </Lemundo_Testaufgabe>
+    </modules>
+</config>

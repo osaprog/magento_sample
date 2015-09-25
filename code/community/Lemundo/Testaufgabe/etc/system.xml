@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <lemundoconfig translate="label">
+            <label>Lemundo</label>
+            <sort_order>99998</sort_order>
+        </lemundoconfig>
+    </tabs>
+    <sections>
+    <lemundotab translate="label" module="adminhtml">
+        <label>Testaufgabe</label>
+        <tab>lemundoconfig</tab>
+        <sort_order>10</sort_order>
+        <show_in_default>1</show_in_default>
+        <groups>
+        <general translate="label comment">
+        <label>Fields</label>
+        <sort_order>50</sort_order>
+        <show_in_default>1</show_in_default>
+        <comment><![CDATA[Enter Config Value!]]></comment>
+        <fields>
+        <text_field translate="label comment">
+            <label>Text Field</label>
+            <frontend_type>text</frontend_type>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+        </text_field>
+        </fields>
+        </general>
+        </groups>
+    </lemundotab>
+    </sections>
+</config>

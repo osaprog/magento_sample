@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lemundo_Testaufgabe>
+            <version>0.1.0</version>
+        </Lemundo_Testaufgabe>
+    </modules>
+    <global>
+        <models>
+            <testaufgabe>
+                <class>Lemundo_Testaufgabe_Model</class>
+            </testaufgabe>
+        </models>
+        <events>
+            <catalog_product_prepare_save>
+                <observers>
+                    <testaufgabe>
+                        <type>singleton</type>
+                        <class>Lemundo_Testaufgabe_Model_Observer</class>
+                        <method>catalog_product_prepare_save</method>
+                    </testaufgabe>
+                </observers>
+            </catalog_product_prepare_save>
+        </events>
+    </global>
+    <default>
+        <lemundotab>
+            <general>
+                <text_field>Default value</text_field>
+            </general>
+        </lemundotab>
+    </default>
+</config>

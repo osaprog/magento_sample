@@ -1,0 +1,5 @@
+# Magento Sample
+
+## Add new form System Configuration contains one text field
+
+## Implement Observer, when product saved concats the value from the text field in System Configuration 
